@@ -1,0 +1,36 @@
+# 비밀정보 - 절대 커밋 금지
+.env
+.env.*
+*.env
+secrets.*
+credentials.*
+*.key
+*.pem
+*.pfx
+*_password*
+*_secret*
+*token*
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# 에디터/OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 첨부/작업 파일
+*.log
+tmp/
+out/
+
+# 로컬 주소 설정 (정식 위치는 ~/.send_mail.ini, 저장소에는 절대 두지 않는다)
+.send_mail.ini
+*.ini
